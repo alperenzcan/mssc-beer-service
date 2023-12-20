@@ -1,0 +1,13 @@
+package guru.springframework.msscbeerservice.repositories;
+
+import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import guru.springframework.msscbeerservice.domain.Beer;
+
+public interface BeerRepository extends JpaRepository<Beer, UUID> {
+
+	
+
+}
